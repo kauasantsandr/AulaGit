@@ -1,8 +1,8 @@
-Pubic class TesteEmpregado{
+public class TesteEmpregado{
     public static void main(String[] args) {
-        Empregado empregado1 = new Empregado(nome: "maria", idade: 18, tipo: 1, salario: 5000, comissao: 0, bonus: 0);
-        Empregado empregado2 = new Empregado(nome: "Ana", idade: 20, tipo: 2, salario: 5000, comissao: 5, bonus: 0);
-        System.out.printIn(empregado1.getNome());
-        System.out.printIn(empregadp2.getNome());
+        Empregado empregado1 = new Empregado("maria", 18, 1, 5000, 0, 0);
+        Empregado empregado2 = new Empregado("Ana", 18, 1, 5000, 0, 0);
+        System.out.println(empregado1.getNome());
+        System.out.println(empregado2.getNome());
     }
 }

@@ -31,7 +31,7 @@ public class Empregado {
         this.nome = nome;
     }
 
-    public void setIdade(Int idade) {
+    public void setIdade(int idade) {
         this.idade = idade;
     }
 
@@ -55,23 +55,23 @@ public class Empregado {
         return nome;
     }
 
-    public String getIdade() {
+    public int getIdade() {
         return idade;
     }
 
-    public String getTipo() {
+    public int getTipo() {
         return tipo;
     }
 
-    public String getSalario() {
+    public Double getSalario() {
         return salario;
     }
 
-    public String getComissao() {
-        return salario;
+    public Double getComissao() {
+        return comissao;
     }
 
-    public String getBonus() {
+    public Double getBonus() {
         return bonus;
     }
 }
