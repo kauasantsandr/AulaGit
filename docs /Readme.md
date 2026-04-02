@@ -1,3 +1,3 @@
-**Esta é a pasta de documentação do Projeto Integrador 2026-1**
+**Esta é a pasta de documentação do Woonstel**
 
 Hierarquia:
